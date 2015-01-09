@@ -1,17 +1,18 @@
 package com.maple.grade;
 
 public class Printer {
-	public static void output(int a) {
-		System.out.print(Calculator.grade(a));
-	}
 	
-	public static void sumoutput(int a) {
+	public void print(String a) {
 		System.out.print(a);
 	}
-	
-	public static void averageoutput(int a) {
-		System.out.print(Calculator.average(a));
+	public void print(int a){
+		System.out.print(a);
+	}	
+	public void print(char a){
+		System.out.print(a);
+	}	
+	public void print(float b){
+		System.out.print(b);
 	}
-	
-	
+	 
 }

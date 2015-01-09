@@ -1,10 +1,8 @@
 package com.maple.grade;
 
 public class Calculator {
-	
-	static int sum = 0;
-	
-	public static char grade (int a)
+
+	public char grade (int a)
 	{
 		char chr=0;
 		if(a>=90 && a<=100)
@@ -22,16 +20,18 @@ public class Calculator {
 		
 	}
 	
-	public static int total (int a)
+	public int add (int a,int sum)
 	{
 			sum = sum+a;
 			return sum;
 	}
 	
-	public static float average (int a)
+	public float average (int a,int sum)
 	{
 		float ave = 0;
-		ave = sum/5;
+		if(a==0){}
+		else
+			ave = sum/a;
 		return ave;
 	}
 	
